@@ -17,7 +17,7 @@ pipeline {
                 sh 'terraform plan'
             }
         }
-         stage('fdkfkjkjkjkjd') {
+         stage('apply-prasad') {
             steps {
                 sh 'terraform apply -auto-approve'
             }
